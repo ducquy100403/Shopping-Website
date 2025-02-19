@@ -39,8 +39,26 @@ h6 {
   color: #d8d8d8;
 }
 
+button{
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 14px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+
+button:hover{
+  background-color: #3e3833;
+}
+
 hr {
   width: 30px;
   height: 2px;
   background-color: #fb774b;
 }
+

@@ -1,0 +1,28 @@
+/* Mobile Nav */
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        background-color: #fb774b !important;
+    }
+
+    .navbar-toggler:hover #bar,
+    .navbar-toggler:focus #bar {
+        color: white !important;
+    }
+
+    #navbarSupportedContent>ul{
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 10px 0;
+    }
+}
